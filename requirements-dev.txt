@@ -1,0 +1,7 @@
+# Package utils
+twine==3.3.0
+
+# Code-style
+autopep8==1.5.5
+flake8==3.8.4
+pylint==2.7.2
