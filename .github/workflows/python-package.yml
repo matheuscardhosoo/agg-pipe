@@ -36,7 +36,7 @@ jobs:
     - name: Lint with pylint
       run: |
         # pylint with full reports and score.
-        pylint-fail-under --fail_under 9.5 src --reports=y --score=y
+        pylint-fail-under --fail_under 9.0 src --reports=y --score=y
     - name: Typing with MyPy
       run: |
         mypy

@@ -2,6 +2,6 @@
 from typing import TypedDict
 
 
+# pylint: disable=too-few-public-methods
 class CommandDescriptor(TypedDict):
     """Command attributes"""
-    pass
